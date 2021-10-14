@@ -1,0 +1,65 @@
+body {
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #535a5a;
+    font-size: 11px;
+    padding: 1rem;
+}
+h1,h3{
+    text-align: center;
+    margin: 0 2rem;
+}
+input#emailCheck {
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 3px 15px;
+}
+ #request>span{
+    color: black;
+    margin: 0 22px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    height: 35px;
+}
+
+button#check {
+    margin-left: 30px;
+    right: 3rem;
+    padding: 0 15px;
+    color: #c3c5ca;
+    background-color: rgb(237, 100, 100);
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+button#check:hover {
+    background-color: rgb(175, 54, 54);
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.block {
+    display: block;
+    text-align: center;
+}

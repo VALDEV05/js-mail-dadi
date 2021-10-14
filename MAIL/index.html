@@ -1,18 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIL</title>
+
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Mail</title>
 </head>
+
 <body>
-    <label for="email">inserisci l'email</label>
-    <input type="email" name="" id="email_input">
-    <button id="btn_generate">genera</button>
-    <div id="find"></div>
-    
+
+    <div class="container">
+        <h1>ciao, verifica se la tua email è in lista per accedere all'evento</h1>
+        <h3>Potrai partecipare all'evento, solo se la tua email è stata registrata, quindi usa questa app per verificare se è presente. Compila il form </h3>
+        <div class="form">
+            
+            <input type="email" id="emailCheck" placeholder="Digita qui la tua mail">
+
+            <button id="check">Verifica!</button>
+
+        </div>
+
+        <div id="risposta"></div>
+
+    </div>
+
     <script src="./assets/js/main.js"></script>
+
 </body>
+
 </html>
