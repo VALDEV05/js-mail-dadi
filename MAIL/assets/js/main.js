@@ -13,6 +13,14 @@ Usiamo un input e un bottone per inserire la mail e poi mostriamo i risultati in
 
 
 //chiedo email 
+const email = document.getElementById('email_input');
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', function () {
+    console.log(email.value)
+
+})
+
 
 //creo array di email almeno 20
 
